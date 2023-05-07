@@ -1,0 +1,32 @@
+{
+  "name": "io.domyjobfor.me",
+  "version": "1.0.0",
+  "description": "\"# io.domyjobfor.me\"",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carreb/io.domyjobfor.me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carreb/io.domyjobfor.me/issues"
+  },
+  "homepage": "https://github.com/carreb/io.domyjobfor.me#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "node-fetch": "^2.6.7",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "socket.io-client": "^4.6.1"
+  }
+}
